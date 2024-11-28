@@ -1,0 +1,219 @@
+h1 {
+    color: green;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 10px;
+}
+
+
+
+
+/*$det_logo_1: (x x x x x o x o o x o x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o x o o o x o o x o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o x o o o x x x x o x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o x o o o x o o x o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o x o o o x o o x o x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (x x x o o x x x x o x x x x x o x o o o x o x x x x o x o x o o o x x x x o x x x o o x x x x)
+          (x o o x o x o o o o o o x o o o x o o o x o x o o o o x o x o o o x o o o o x o o x o x o o o)
+          (x o o x o x x x x o o o x o o o x o x o x o x x x x o x o x o o o x x x x o x x x o o x x x x)
+          (x o o x o x o o o o o o x o o o x o x o x o x o o o o x o x o o o x o o o o x o o x o o o o x)
+          (x x x o o x x x x o o o x o o o o x x x o o x x x x o x o x x x o x x x x o x o o x o x x x x);*/
+
+          /*$det_logo_2: (x x x x x x x x x x o x x x x o o x x x x o x x x x x x x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (x o o o o o o o o x o x o o x o o x o o x o x o o o o o o o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (x o o o o o o o o x o x o o x o o x o o x o x o o x x x x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o) 
+          (x x x x o o x x x x o x o o x x x x o o x o x o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o o x o o x o o o o x o o o o o o o o x o x o o x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o o x o o x o o o o x o o o o o o o o x o x o o o o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o o x o o x o o o o x o o o o o o o o x o x o o x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o o x o o x o o o o x o o x x x x o o x o x o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o o x o o x o o o o x o o x o o x o o x o x o o x x x x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o o x o o x o o o o x o o x o o x o o x o x o o o o o o o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o o x x x x o o o o x x x x o o x x x x o x x x x x x x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+          (x x x x x x x o o o o x x x x x x x x x x o x x x x x x x x x x o x x x o o o o x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x o o o o o o o x x x x x x x x x x o x x x x x x x x o o o x x x x x x x x x x)
+          (x o o o o o o x o o o x o o o o o o o o x o x o o o o o o o o x o x o x o o o o x o x o x o o o o o o o o x o x o o o o o o o o x o x o o x o o o o o o o x o o o o o o o o x o x o o o o o o o x o o x o o o o o o o o x)
+          (x o o o o o o o x o o x o o x x x x x x x o x o o o o o o o o x o x o x o o o o x o x o x o o x x x x x x x o x o o o o o o o o x o x o o x o o o o o o o x o o x x x x x x x o x o o x x x o o o x o x o x x x x x x x x)
+          (x o o x x x o o o x o x o o x o o o o o o o x x x x o o x x x x o x o x o o o o x o x o x o o x o o o o o o o x x x x o o x x x x o x o o x o o o o o o o x o o x o o o o o o o x o o x o o x o o x o x o x o o o o o o o)
+          (x o o x o o x o o x o x o o x x x x o o o o o o o x o o x o o o o x o x o o o o x o x o x o o x x x x o o o o o o o x o o x o o o o x o o x o o o o o o o x o o x x x x o o o o x o o x x x o o o x o x o x x x x x x x x)
+          (x o o x o o x o o x o x o o o o o x o o o o o o o x o o x o o o o x o x o x x o x o x o x o o o o o x o o o o o o o x o o x o o o o x o o x o o o o o o o x o o o o o x o o o o x o o o o o o o x o o x o o o o o o o o x)
+          (x o o x o o x o o x o x o o x x x x o o o o o o o x o o x o o o o x o x o x x o x o x o x o o x x x x o o o o o o o x o o x o o o o x o o x o o o o o o o x o o x x x x o o o o x o o x x x x o x o o x x x x x x x x o x)
+          (x o o x x x o o o x o x o o x o o o o o o o o o o x o o x o o o o x o x o x x o x o x o x o o x o o o o o o o x x x x o o x x x x o x o o x x x x x x x o x o o x o o o o o o o x o o x o o x o x o o o o o o o o o x o x)
+          (x o o o o o o o x o o x o o x x x x x x x o o o o x o o x o o o o x o o x x x x o o x o x o o x x x x x x x o x o o o o o o o o x o x o o o o o o o o x o x o o x x x x x x x o x o o x o o x o x o o x x x x x x x x o x)
+          (x o o o o o o x o o o x o o o o o o o o x o o o o x o o x o o o o x o o o o o o o o x o x o o o o o o o o x o x o o o o o o o o x o x o o o o o o o o x o x o o o o o o o o x o x o o x o o x o x o o x o o o o o o o o x)
+          (x x x x x x x o o o o x x x x x x x x x x o o o o x x x x o o o o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x o o x x x o o x x x x x x x x x x);*/
+
+          /*$det_logo_3: (x x x x x x x x x x o x x x x o o x x x x o x x x x x x x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+                    (x o o o o o o o o x o x o o x o o x o o x o x o o o o o o o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+                    (x o o o o o o o o x o x o o x o o x o o x o x o o x x x x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o) 
+                    (x x x x o o x x x x o x o o x x x x o o x o x o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o o o o o o o o x o o o o o o o o o o o o o o o o o o)
+                    (o o o x o o x o o o o x o o o o o o o o x o x o o x x x x o o o o o o o o o o o o o o o o o x o o x x o o x o o o o o x x x o o o o o o o o o o o o o o o o o x o x o o o o o o o o o x o x x x o o o o x o o x x x o x o)
+                    (o o o x o o x o o o o x o o o o o o o o x o x o o o o o x o o o o o o o o x x x o o o o o o o x o x x o x o o o x o o x x x o o o o o o o o o o o o o o o o o o x x x x o o o o o o o o o x x x o o o o x o o x x x o x o)
+                    (o o o x o o x o o o o x o o o o o o o o x o x o o x x x x o o o o o o o o x x x o o o o o o o o o o o o o o o o o x o o x o o o o o o o o o o o o o o o o o o o o x x x o o o o o o x x o o x o o o o o x o o o x o o x o)
+                    (o o o x o o x o o o o x o o x x x x o o x o x o o x o o o o o o o o o o o o x o o o o x o o x x x x x x x x o o o o o o x o x o o o o o o o o o o o o o o o o o o o x o o o o o o o o x x x o x o o o o o x x o x o x o o)
+                    (o o o x o o x o o o o x o o x o o x o o x o x o o x x x x x x x o o o o o x x x x o x x o o o o o x x o o o o o x x x x x x x x x o o o o o o o o o o o o o x x x x x x x x o o o o o o x x x x o o o o o o o o x o o o o)
+                    (o o o x o o x o o o o x o o x o o x o o x o x o o o o o o o o x o o o o x o x o o x o o o o o o o x x o o o o o x x o o x o o o o o o o o o o o o o o o o o x x o x x x o o o o o o o x o o x x o o o o x x x o x o x x x)
+                    (o o o x x x x o o o o x x x x o o x x x x o x x x x x x x x x x o o o x x x x x x x o o o o o o x o o x o o o o o o o x o x o o o o o o o o o o o o o o o o o o x o o o x o o o o o x o x o o o x o o o o x o x x x o x o)
+                    (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o x o x o o x o o o o x o o o o x o o o o o o x o o x o o o o o o o o o o o o o o o o x o o o o o x o o o o x x x x x o o o o o o x o x x x o x o)
+                    (x x x x x x x o o o o x x x x x x x x x x o x x x x x x x x x x o x x x o x x o o x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x o o o o o o x x x x x x x x x x o x x x x x x x x o o o o x x x x x x x x x)
+                    (x o o o o o o x o o o x o o o o o o o o x o x o o o o o o o o x o x o x o x x o o x o x o x o o o o o o o o x o x o o o o o o o o x o x o o x o o o o o o x o o o o o o o o x o x o o o o o o o x o o x o o o o o o o o x)
+                    (x o o o o o o o x o o x o o x x x x x x x o x o o o o o o o o x o x o x o o o o o x o x o x o o x x x x x x x o x o o o o o o o o x o x o o x o o o o o o x o o x x x x x x x o x o o x x x o o o x o x o x x x x x x x x)
+                    (x o o x x x o o o x o x o o x o o o o o o o x x x x o o x x x x o x o x o o o o o x o x o x o o x o o o o o o o x x x x o o x x x x o x o o x o o o o o o x o o x o o o o o o o x o o x o o x o o x o x o x o o o o o o o)
+                    (x o o x o o x o o x o x o o x x x x o o o o o o o x o o x o o o o x o x o o o o o x o x o x o o x x x x o o o o o o o x o o x o o o o x o o x o o o o o o x o o x x x x o o o o x o o x x x o o o x o x o x x x x x x x o)
+                    (x o o x o o x o o x o x o o o o o x o o o o o o o x o o x o o o o x o x o o x o o x o x o x o o o o o x o o o o o o o x o o x o o o o x o o x o o o o o o x o o o o o x o o o o x o o o o o o o x o o x o o o o o o o o x)
+                    (x o o x o o x o o x o x o o x x x x o o o o o o o x o o x o o o o x o x o x o x o x o x o x o o x x x x o o o o o o o x o o x o o o o x o o x o o o o o o x o o x x x x o o o o x o o x x x o x o o o o x x x x x x x o x)
+                    (x o o x x x o o o x o x o o x o o o o o o o o o o x o o x o o o o x o x o x o x o x o x o x o o x o o o o o o o x x x x o o x x x x o x o o x x x x x x o x o o x o o o o o o o x o o x o x o o x o o o o o o o o o x o x)
+                    (x o o o o o o o x o o x o o x x x x x x x o o o o x o o x o o o o x o o x x o x x o o x o x o o x x x x x x x o x o o o o o o o o x o x o o o o o o o x o x o o x x x x x x x o x o o x o x o o x o o x x x x x x x x o x)
+                    (x o o o o o o x o o o x o o o o o o o o x o o o o x o o x o o o o x o o o o o o o o o x o x o o o o o o o o x o x o o o o o o o o x o x o o o o o o o x o x o o o o o o o o x o x o o x o x o o x o o x o o o o o o o o x)
+                    (x x x x x x x o o o o x x x x x x x x x x o o o o x x x x o o o o o x x x x x x x x x o o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x o x x x x x x x x x x o x x x x o x x x x o o x x x x x x x x x o);*/
+
+
+       $det_logo_4_amp: (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+                        (o x x x x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x x x x x x x o)
+                        (o x o o o o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o o o o x o) 
+                        (o x o o x o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o o o o o o o o o x o o o o o o o o o o o o o o o o o o o o x o o x o o x o)
+                        (o x o x o x o x o o o o o o x x x o o o o o o x o o x x o o x o o o o o o o o o o o o o o o x x x x x x x o x o o o x o x x x x x o o o o o x o x x x o o o o x o x o o o o o o x o o x x x o o x o o o o x o x o x o x o)
+                        (o x o o x o o x o o o x o o x x x o o o o o o o x o x x o x o o o o o o o x x x o o o o o o o o o x o o o o x o o o x o x o o o o o o o o o o o x x x o o o o o x x x x o o o o x o o x x x o o x o o o o x o o x o o x o)
+                        (o x o o o o o x o o o o x o o x o o o o o o o o o o o o o o o o o o o o o x x x o o o o o o o o o x o o o o x o o o x o x o o o o o o o o x x o o x o o o o o o o x x x o o o o x o o o x o o o x o o o o x o o o o o x o)
+                        (o x x x x x x x o o o o o o o x o x o o o o o x x x x x x x x o o o o o o o x o o o o x o o o o o x o o o o x x x x x o x x x x o o o o o o x x x o x o o o o o o o x o o o o o o x x o x o x x o o o o o x x x x x x x o)
+                        (o o o o x o o o o o o x x x x x x x x x o o o o o o x x o o o o o o o o o x x x x o x x o o o o o x o o o o x o o o x o x o o o o o o o o o o x x x x o o o x x x x x x x x o o o o o o x o o o o o o o o o o o x o o o o)
+                        (o o o o x o o o o o o x x o o x o o o o o o o o o o x x o o o o o o o o x o x o o x o o o o o o o x o o o o x o o o x o x o o o o o o o o o x o o x x o o o x x o x x x o o o o x x x o o o x x x o o o o o o o x o o o o)
+                        (o o o o x o o o o o o o o o x o x o o o o o o o o x o o x o o o o o o x x x x x x x o o o o o o o x o o o o x o o o x o x x x x x o o o o x o x o o o x o o o o x o o o x o o o o x o x x x o x o o o o o o o o x o o o o)
+                        (o o o o x o o o o o o o o o x o o x o o o o o o x o o o o x o o o o x o o x o x o o x o o o o o o o o o o o o o o o o o o o o o o o o o o x x x x x o o o o o x o o o o o x o o o x o x x x o x o o o o o o o o x o o o o)
+                        (x x x x x x x o o o o x x x x x x x x x x o x x x x x x x x x x o x x x o x x o o x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x o o o o o o x x x x x x x x x x o x x x x x x x x o o o o x x x x x x x x x)
+                        (x o o o o o o x o o o x o o o o o o o o x o x o o o o o o o o x o x o x o x x o o x o x o x o o o o o o o o x o x o o o o o o o o x o x o o x o o o o o o x o o o o o o o o x o x o o o o o o o x o o x o o o o o o o o x)
+                        (x o o o o o o o x o o x o o x x x x x x x o x o o o o o o o o x o x o x o o o o o x o x o x o o x x x x x x x o x o o o o o o o o x o x o o x o o o o o o x o o x x x x x x x o x o o x x x o o o x o x o x x x x x x x x)
+                        (x o o x x x o o o x o x o o x o o o o o o o x x x x o o x x x x o x o x o o o o o x o x o x o o x o o o o o o o x x x x o o x x x x o x o o x o o o o o o x o o x o o o o o o o x o o x o o x o o x o x o x o o o o o o o)
+                        (x o o x o o x o o x o x o o x x x x o o o o o o o x o o x o o o o x o x o o o o o x o x o x o o x x x x o o o o o o o x o o x o o o o x o o x o o o o o o x o o x x x x o o o o x o o x x x o o o x o x o x x x x x x x o)
+                        (x o o x o o x o o x o x o o o o o x o o o o o o o x o o x o o o o x o x o o x o o x o x o x o o o o o x o o o o o o o x o o x o o o o x o o x o o o o o o x o o o o o x o o o o x o o o o o o o x o o x o o o o o o o o x)
+                        (x o o x o o x o o x o x o o x x x x o o o o o o o x o o x o o o o x o x o x o x o x o x o x o o x x x x o o o o o o o x o o x o o o o x o o x o o o o o o x o o x x x x o o o o x o o x x x o x o o o o x x x x x x x o x)
+                        (x o o x x x o o o x o x o o x o o o o o o o o o o x o o x o o o o x o x o x o x o x o x o x o o x o o o o o o o x x x x o o x x x x o x o o x x x x x x o x o o x o o o o o o o x o o x o x o o x o o o o o o o o o x o x)
+                        (x o o o o o o o x o o x o o x x x x x x x o o o o x o o x o o o o x o o x o o o x o o x o x o o x x x x x x x o x o o o o o o o o x o x o o o o o o o x o x o o x x x x x x x o x o o x o x o o x o o x x x x x x x x o x)
+                        (x o o o o o o x o o o x o o o o o o o o x o o o o x o o x o o o o x o o o o x o o o o x o x o o o o o o o o x o x o o o o o o o o x o x o o o o o o o x o x o o o o o o o o x o x o o x o x o o x o o x o o o o o o o o x)
+                        (x x x x x x x o o o o x x x x x x x x x x o o o o x x x x o o o o o x x x x o x x x x o o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x o x x x x x x x x x x o x x x x o x x x x o o x x x x x x x x x o);
+
+    /*$det_logo_4_no_amp: (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x x x x x x x o x o o o x o x x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o o o x o o o x o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o o o x o o o x o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o) 
+                        (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o o o x x x x x o x x x o o o o o o x o o o o o o o o o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o x x x o o o o o o x o o x x o o x o o o o o o o o o o o o o o o o o o x o o o o x o o o x o x o o o o o o o o o x o x x x o o o o x o x o o o o o o x o o x x x o o x o o o o o o o o o o o o)
+                        (o o o o o o o o o o o x o o x x x o o o o o o o x o x x o x o o o o o o o x x x o o o o o o o o o x o o o o x o o o x o x o o o o o o o o o o o x x x o o o o o x x x x o o o o x o o x x x o o x o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o x o o x o o o o o o o o o o o o o o o o o o o o o x x x o o o o o o o o o x o o o o x o o o x o x x x x x o o o o x x o o x o o o o o o o x x x o o o o x o o o x o o o x o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o o x o x o o o o o x x x x x x x x o o o o o o o x o o o o x o o o o o o o o o o o o o o o o o o o o o o o o o o x x x o x o o o o o o o x o o o o o o x x o x o x x o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o x x x x x x x x x o o o o o o x x o o o o o o o o o x x x x o x x o o o o o o o o o o o o o o o o o o o o o o o o o o o x x x x o o o x x x x x x x x o o o o o o x o o o o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o x x o o x o o o o o o o o o o x x o o o o o o o o x o x o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o x x o o o x x o x x x o o o o x x x o o o x x x o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o x o x o o o o o o o o x o o x o o o o o o x x x x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o x o x o o o x o o o o x o o o x o o o o x o x x x o x o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o x o o x o o o o o o x o o o o x o o o o x o o x o x o o x o o o o o o o o o o o o o o o o o o o o o o o o o o x x x x x o o o o o x o o o o o x o o o x o x x x o x o o o o o o o o o o o o o)
+                        (x x x x x x x o o o o x x x x x x x x x x o x x x x x x x x x x o x x x o x x o o x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x o o o o o o x x x x x x x x x x o x x x x x x x x o o o o x x x x x x x x x)
+                        (x o o o o o o x o o o x o o o o o o o o x o x o o o o o o o o x o x o x o x x o o x o x o x o o o o o o o o x o x o o o o o o o o x o x o o x o o o o o o x o o o o o o o o x o x o o o o o o o x o o x o o o o o o o o x)
+                        (x o o o o o o o x o o x o o x x x x x x x o x o o o o o o o o x o x o x o o o o o x o x o x o o x x x x x x x o x o o o o o o o o x o x o o x o o o o o o x o o x x x x x x x o x o o x x x o o o x o x o x x x x x x x x)
+                        (x o o x x x o o o x o x o o x o o o o o o o x x x x o o x x x x o x o x o o o o o x o x o x o o x o o o o o o o x x x x o o x x x x o x o o x o o o o o o x o o x o o o o o o o x o o x o o x o o x o x o x o o o o o o o)
+                        (x o o x o o x o o x o x o o x x x x o o o o o o o x o o x o o o o x o x o o o o o x o x o x o o x x x x o o o o o o o x o o x o o o o x o o x o o o o o o x o o x x x x o o o o x o o x x x o o o x o x o x x x x x x x o)
+                        (x o o x o o x o o x o x o o o o o x o o o o o o o x o o x o o o o x o x o o x o o x o x o x o o o o o x o o o o o o o x o o x o o o o x o o x o o o o o o x o o o o o x o o o o x o o o o o o o x o o x o o o o o o o o x)
+                        (x o o x o o x o o x o x o o x x x x o o o o o o o x o o x o o o o x o x o x o x o x o x o x o o x x x x o o o o o o o x o o x o o o o x o o x o o o o o o x o o x x x x o o o o x o o x x x o x o o o o x x x x x x x o x)
+                        (x o o x x x o o o x o x o o x o o o o o o o o o o x o o x o o o o x o x o x o x o x o x o x o o x o o o o o o o x x x x o o x x x x o x o o x x x x x x o x o o x o o o o o o o x o o x o x o o x o o o o o o o o o x o x)
+                        (x o o o o o o o x o o x o o x x x x x x x o o o o x o o x o o o o x o o x x o x x o o x o x o o x x x x x x x o x o o o o o o o o x o x o o o o o o o x o x o o x x x x x x x o x o o x o x o o x o o x x x x x x x x o x)
+                        (x o o o o o o x o o o x o o o o o o o o x o o o o x o o x o o o o x o o o o o o o o o x o x o o o o o o o o x o x o o o o o o o o x o x o o o o o o o x o x o o o o o o o o x o x o o x o x o o x o o x o o o o o o o o x)
+                        (x x x x x x x o o o o x x x x x x x x x x o o o o x x x x o o o o o x x x x x x x x x o o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x o x x x x x x x x x x o x x x x o x x x x o o x x x x x x x x x o);*/
+
+    /*$det_logo_4_vers_2: (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o) 
+                        (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o o o o o o o o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o x x x o o o o o o x o o x x o o x o o o o o o o o o o o o o o o x x x x x x x o x o o o x o x x x x x o o o o o x o x x x o o o o x o x o o o o o o x o o x x x o o x o o o o o o o o o o o o)
+                        (o o o o o o o o o o o x o o x x x o o o o o o o x o x x o x o o o o o o o x x x o o o o o o o o o x o o o o x o o o x o x o o o o o o o o o o o x x x o o o o o x x x x o o o o x o o x x x o o x o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o x o o x o o o o o o o o o o o o o o o o o o o o o x x x o o o o o o o o o x o o o o x o o o x o x o o o o o o o o x x o o x o o o o o o o x x x o o o o x o o o x o o o x o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o o x o x o o o o o x x x x x x x x o o o o o o o x o o o o x o o o o o x o o o o x x x x x o x x x x o o o o o o x x x o x o o o o o o o x o o o o o o x x o x o x x o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o x x x x x x x x x o o o o o o x x o o o o o o o o o x x x x o x x o o o o o x o o o o x o o o x o x o o o o o o o o o o x x x x o o o x x x x x x x x o o o o o o x o o o o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o x x o o x o o o o o o o o o o x x o o o o o o o o x o x o o x o o o o o o o x o o o o x o o o x o x o o o o o o o o o x o o x x o o o x x o x x x o o o o x x x o o o x x x o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o x o x o o o o o o o o x o o x o o o o o o x x x x x x x o o o o o o o x o o o o x o o o x o x x x x x o o o o x o x o o o x o o o o x o o o x o o o o x o x x x o x o o o o o o o o o o o o o)
+                        (o o o o o o o o o o o o o o x o o x o o o o o o x o o o o x o o o o x o o x o x o o x o o o o o o o o o o o o o o o o o o o o o o o o o o x x x x x o o o o o x o o o o o x o o o x o x x x o x o o o o o o o o o o o o o)
+                        (x x x x x x x o o o o x x x x x x x x x x o x x x x x x x x x x o x x x o x x o o x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x o o o o o o x x x x x x x x x x o x x x x x x x x o o o o x x x x x x x x x)
+                        (x o o o o o o x o o o x o o o o o o o o x o x o o o o o o o o x o x o x o x x o o x o x o x o o o o o o o o x o x o o o o o o o o x o x o o x o o o o o o x o o o o o o o o x o x o o o o o o o x o o x o o o o o o o o x)
+                        (x o o o o o o o x o o x o o x x x x x x x o x o o o o o o o o x o x o x o o o o o x o x o x o o x x x x x x x o x o o o o o o o o x o x o o x o o o o o o x o o x x x x x x x o x o o x x x o o o x o x o x x x x x x x x)
+                        (x o o x x x o o o x o x o o x o o o o o o o x x x x o o x x x x o x o x o o o o o x o x o x o o x o o o o o o o x x x x o o x x x x o x o o x o o o o o o x o o x o o o o o o o x o o x o o x o o x o x o x o o o o o o o)
+                        (x o o x o o x o o x o x o o x x x x o o o o o o o x o o x o o o o x o x o o o o o x o x o x o o x x x x o o o o o o o x o o x o o o o x o o x o o o o o o x o o x x x x o o o o x o o x x x o o o x o x o x x x x x x x o)
+                        (x o o x o o x o o x o x o o o o o x o o o o o o o x o o x o o o o x o x o o x o o x o x o x o o o o o x o o o o o o o x o o x o o o o x o o x o o o o o o x o o o o o x o o o o x o o o o o o o x o o x o o o o o o o o x)
+                        (x o o x o o x o o x o x o o x x x x o o o o o o o x o o x o o o o x o x o x o x o x o x o x o o x x x x o o o o o o o x o o x o o o o x o o x o o o o o o x o o x x x x o o o o x o o x x x o x o o o o x x x x x x x o x)
+                        (x o o x x x o o o x o x o o x o o o o o o o o o o x o o x o o o o x o x o x o x o x o x o x o o x o o o o o o o x x x x o o x x x x o x o o x x x x x x o x o o x o o o o o o o x o o x o x o o x o o o o o o o o o x o x)
+                        (x o o o o o o o x o o x o o x x x x x x x o o o o x o o x o o o o x o o x x o x x o o x o x o o x x x x x x x o x o o o o o o o o x o x o o o o o o o x o x o o x x x x x x x o x o o x o x o o x o o x x x x x x x x o x)
+                        (x o o o o o o x o o o x o o o o o o o o x o o o o x o o x o o o o x o o o o o o o o o x o x o o o o o o o o x o x o o o o o o o o x o x o o o o o o o x o x o o o o o o o o x o x o o x o x o o x o o x o o o o o o o o x)
+                        (x x x x x x x o o o o x x x x x x x x x x o o o o x x x x o o o o o x x x x x x x x x o o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x o x x x x x x x x x x o x x x x o x x x x o o x x x x x x x x x o);*/
+
+/*$det_logo_4_amp_filled: (o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o)
+                        (o x x x x x x x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x x x x x x x o)
+                        (o x o o o o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o o o o x o) 
+                        (o x o o x o o x o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o x o o o o o o o o o o x o o o o o o o o o o o o o o o o o o o o x o o x o o x o)
+                        (o x o x o x o x o o o o o o x x x o o o o o o x o o x x o o x o o o o o o o o o o o o o o o x x x x x x x o x o o o x o x x x x x o o o o o x o x x x o o o o x o x o o o o o o x o o x x x o o x o o o o x o x o x o x o)
+                        (o x o o x o o x o o o x o o x x x o o o o o o o x o x x o x o o o o o o o x x x o o o o o o o o o x o o o o x o o o x o x o o o o o o o o o o o x x x o o o o o x x x x o o o o x o o x x x o o x o o o o x o o x o o x o)
+                        (o x o o o o o x o o o o x o o x o o o o o o o o o o o o o o o o o o o o o x x x o o o o o o o o o x o o o o x o o o x o x o o o o o o o o x x o o x o o o o o o o x x x o o o o x o o o x o o o x o o o o x o o o o o x o)
+                        (o x x x x x x x o o o o o o o x o x o o o o o x x x x x x x x o o o o o o o x o o o o x o o o o o x o o o o x x x x x o x x x x o o o o o o x x x o x o o o o o o o x o o o o o o x x o x o x x o o o o o x x x x x x x o)
+                        (o o o o x o o o o o o x x x x x x x x x o o o o o o x x o o o o o o o o o x x x x o x x o o o o o x o o o o x o o o x o x o o o o o o o o o o x x x x o o o x x x x x x x x o o o o o o x o o o o o o o o o o o x o o o o)
+                        (o o o o x o o o o o o x x o o x o o o o o o o o o o x x o o o o o o o o x o x o o x o o o o o o o x o o o o x o o o x o x o o o o o o o o o x o o x x o o o x x o x x x o o o o x x x o o o x x x o o o o o o o x o o o o)
+                        (o o o o x o o o o o o o o o x o x o o o o o o o o x o o x o o o o o o x x x x x x x o o o o o o o x o o o o x o o o x o x x x x x o o o o x o x o o o x o o o o x o o o x o o o o x o x x x o x o o o o o o o o x o o o o)
+                        (o o o o x o o o o o o o o o x o o x o o o o o o x o o o o x o o o o x o o x o x o o x o o o o o o o o o o o o o o o o o o o o o o o o o o x x x x x o o o o o x o o o o o x o o o x o x x x o x o o o o o o o o x o o o o)
+                        (x x x x x x x o o o o x x x x x x x x x x o x x x x x x x x x x o x x x o x x o o x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x o o o o o o x x x x x x x x x x o x x x x x x x x o o o o x x x x x x x x x)
+                        (x x x x x x x x o o o x x x x x x x x x x o x x x x x x x x x x o x x x o x x o o x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x o o o o o o x x x x x x x x x x o x x x x x x x x x o o x x x x x x x x x x)
+                        (x x x x x x x x x o o x x x x x x x x x x o x x x x x x x x x x o x x x o o o o o x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x o o o o o o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x x)
+                        (x x x x x x x x x x o x x x x o o o o o o o x x x x x x x x x x o x x x o o o o o x x x o x x x x o o o o o o o x x x x x x x x x x o x x x x o o o o o o x x x x o o o o o o o x x x x o o x x x x o x x x o o o o o o o)
+                        (x x x x o o x x x x o x x x x x x x o o o o o o o x x x x o o o o x x x o o o o o x x x o x x x x x x x o o o o o o o x x x x o o o o x x x x o o o o o o x x x x x x x o o o o x x x x x x x x x x o x x x x x x x x x o)
+                        (x x x x o o x x x x o x x x x x x x o o o o o o o x x x x o o o o x x x o o x o o x x x o x x x x x x x o o o o o o o x x x x o o o o x x x x o o o o o o x x x x x x x o o o o x x x x x x x x x o o x x x x x x x x x x)
+                        (x x x x o o x x x x o x x x x x x x o o o o o o o x x x x o o o o x x x o x x x o x x x o x x x x x x x o o o o o o o x x x x o o o o x x x x o o o o o o x x x x x x x o o o o x x x x x x x x o o o o x x x x x x x x x)
+                        (x x x x x x x x x x o x x x x o o o o o o o o o o x x x x o o o o x x x o x x x o x x x o x x x x o o o o o o o x x x x x x x x x x o x x x x x x x x x o x x x x o o o o o o o x x x x o x x x x o o o o o o o o o x x x)
+                        (x x x x x x x x x o o x x x x x x x x x x o o o o x x x x o o o o x x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x o x x x x x x x x x x o x x x x o x x x x o o x x x x x x x x x x)
+                        (x x x x x x x x o o o x x x x x x x x x x o o o o x x x x o o o o x x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x o x x x x x x x x x x o x x x x o x x x x o o x x x x x x x x x x)
+                        (x x x x x x x o o o o x x x x x x x x x x o o o o x x x x o o o o o x x x x o x x x x o o x x x x x x x x x x o x x x x x x x x x x o x x x x x x x x x o x x x x x x x x x x o x x x x o x x x x o o x x x x x x x x x o);*/
+
+@function pixelize($matrix, $size: 10px, $color: Black) {
+  $l: length($matrix);
+  $shadows: '';
+  $i: $l;
+
+  @for $i from 1 through $l {
+      $row: nth($matrix, $i);
+
+      @for $j from 1 through length($row) {
+          $item: nth($row, $j);
+
+          @if $item == x {
+              $shadows: $shadows + ($j*$size) + ' ' + ($i*$size) + ' ' + $color;
+          } @else {
+              $shadows: $shadows + ($j*$size) + ' ' + ($i*$size) + ' ' + transparent;
+          }
+
+          @if not ($j == length($row) and $i == $l) {
+              $shadows: $shadows + ',';
+          }
+      }
+  }
+
+  @return unquote($shadows)
+}
+
+.icons{
+    margin: 3em auto;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+  
+    li {
+      margin: 1em;
+      display: inline-block;
+      position: relative;
+  
+    }
+  
+    &--diamond {
+      &:after {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: -500px;
+        width: 10px;
+        height: 10px;
+        box-shadow: pixelize($det_logo_4_amp);
+      }
+    }
+  }
