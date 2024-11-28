@@ -1,0 +1,14 @@
+
+
+#root {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  #quote-box {
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #D3D3D3;
+  }
