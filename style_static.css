@@ -104,6 +104,16 @@ a {
     border-width: 1px;
     border-radius: 3px;
   }
+
+  .profile-link-email {
+    display: flex;
+    align-items: center;
+    color: #311047;
+    font-family: 'Tourney', cursive;
+    font-size: 25px;
+    height: 100px;
+    padding: 0px 100px 0px 100px;
+  }
   
   #email {
     display: flex;
