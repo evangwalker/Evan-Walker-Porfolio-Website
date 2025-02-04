@@ -103,7 +103,7 @@ a {
     border-style: solid;
     border-width: 1px;
     border-radius: 3px;
-    border-color: #D3D3D3;
+    
   }
 
   .profile-link-email {
@@ -230,7 +230,7 @@ a {
   
   .project-tile:hover {
     border: solid;
-    border-color: black;
+    border-color: #D3D3D3;
   }
   
   iframe {
