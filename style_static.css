@@ -100,7 +100,7 @@ a {
   }
   
   .profile-link:hover {
-    border: solid;
+    border-style: solid;
     border-width: 1px;
     border-radius: 3px;
     border-color: #D3D3D3;
