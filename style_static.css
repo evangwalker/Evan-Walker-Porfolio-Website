@@ -229,7 +229,7 @@ a {
   }
   
   .project-tile:hover {
-    border: solid;
+    border-style: double;
     border-color: #D3D3D3;
   }
   
