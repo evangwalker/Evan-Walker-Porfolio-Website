@@ -228,10 +228,7 @@ a {
     margin: 10px;
   }
   
-  .project-tile:hover {
-    border-style: double;
-    border-color: #D3D3D3;
-  }
+  
   
   iframe {
     padding-top: 10px;
