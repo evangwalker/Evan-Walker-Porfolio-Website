@@ -32,7 +32,6 @@ a {
     font-size: 25px;
     color: white;
     height: auto;
-
   }
   
   .nav-links:hover {
@@ -228,7 +227,11 @@ a {
     margin: 10px;
   }
   
-  
+  .project-tile:hover {
+    border: solid;
+    border-width: 1px;
+    background-color: #311047;
+  }
   
   iframe {
     padding-top: 10px;
