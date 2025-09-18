@@ -228,9 +228,7 @@ a {
   }
   
   .project-tile:hover {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+    color: black;
   }
   
   iframe {
