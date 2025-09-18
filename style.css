@@ -230,7 +230,7 @@ a {
   .project-tile:hover {
     border-style: solid;
     border-width: 1px;
-    background-color: black;
+    border-color: black;
   }
   
   iframe {
