@@ -37,7 +37,7 @@ a {
   .nav-links:hover {
     border: solid;
     border-width: 1px;
-    background-color: #311047;
+    border-color: #311047;
   }
 
   .nav-linkss {
@@ -230,7 +230,7 @@ a {
   .project-tile:hover {
     border: solid;
     border-width: 1px;
-    background-color: #311047;
+    background-color: black;
   }
   
   iframe {
