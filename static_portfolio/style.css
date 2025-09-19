@@ -1,0 +1,231 @@
+body {
+    background-color: #260d26;
+  }
+  
+  a {
+      text-decoration: none;
+    }
+    
+    /*  Navigation Bar  */
+    
+    #navbar {
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+      
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+    
+    #navbar ul {
+      display: flex;
+      list-style: none;
+      /*background-color: #311047;*/
+    }
+    
+    .nav-links {
+      display: block;
+      padding: 10px 30px 10px 30px;
+      font-family: 'Tourney', cursive;
+      font-size: 25px;
+      color: white;
+      height: auto;
+    }
+    
+    .nav-links:hover {
+      border: solid;
+      border-width: 1px;
+      border-color: #260d26;
+    }
+  
+    .nav-linkss {
+      display: block;
+      padding: 10px 30px 10px 30px;
+      font-family: 'Tourney', cursive;
+      font-size: 25px;
+      color: #260d26;
+      height: auto;
+  
+    }
+  
+    .nav-links:hover {
+      border: solid;
+      border-width: 1px;
+      background-color: #260d26;
+    }
+    
+    /*  Welcome Section  */
+    
+    #welcome-section {
+      background-image: linear-gradient(-45deg, #ebc6a3, #d8b887a4);
+      display: flex;
+      flex-direction: column;
+     
+      width: 90%;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+    
+    #welcome-section h1 {
+      color: #311047;
+      font-size: 40px;
+      font-family: 'Tourney', cursive;
+      padding: 20px;
+      padding-bottom: 40px;
+      border-color: #260d26;
+      border-width: 3px;
+      border-style: none none double none;
+    }
+  
+    .contact {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+    }
+    
+    .profile-link {
+      display: flex;
+      align-items: center;
+      color: #260d26;
+      font-family: 'Tourney', cursive;
+      font-size: 25px;
+      height: 100px;
+      padding: 0px 100px 0px 100px;
+    }
+    
+    .profile-link:hover {
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 3px;
+      
+    }
+  
+    .profile-link-email {
+      display: flex;
+      align-items: center;
+      color: #260d26;
+      font-family: 'Tourney', cursive;
+      font-size: 25px;
+      height: 100px;
+      padding: 0px 100px 0px 100px;
+    }
+    
+    #email {
+      display: flex;
+      align-self: center;
+      color: #260d26;
+      font-family: 'Tourney', cursive;
+      font-size: 25px;
+    }
+    
+    #email:hover {
+      border: solid;
+      border-width: 1px;
+      border-radius: 3px;
+    }
+  
+    #interactive {
+      padding: 40px;
+    }
+  
+    .email {
+      color: #260d26;
+      font-family: 'Tourney', cursive;
+      font-size: 25px;
+      height: 100px;
+      padding: 0px 100px 0px 100px;
+    }
+  
+    /* About Section */
+  
+    #about-section h3 {
+      font-size: 30px;
+      font-family: 'Tourney', cursive;
+      margin: auto;
+      text-align: center;
+    }
+  
+    #about-section {
+      width: 50%;
+      margin: auto;
+      padding: 20px;
+      color: white;
+    }
+  
+    #band-link {
+      color: #ffa64d;
+    }
+    /*  Project Section  */
+    
+  
+    #projects {
+      display: flex;
+    }
+  
+    #web-dev {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  
+    #data-science {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+  
+    #web-dev-header {
+      font-size: 30px;
+      font-family: 'Tourney', cursive;
+      margin: auto;
+      color: white;
+    }
+  
+    #data-science-header {
+      font-size: 30px;
+      font-family: 'Tourney', cursive;
+      margin: auto;
+      color: white;
+    }
+    
+    #section-header {
+      text-align: center;
+      padding: 20px;
+      font-size: 40px;
+      font-family: 'Tourney', cursive;
+      color: white;
+    }
+    
+    
+    
+    .project-grid {
+      display: flex;
+      
+      justify-content: space-around;
+      flex-wrap: wrap;
+      width: 90%;
+      margin: auto;
+    }
+    
+    #projects p {
+      color: white;
+      font-size: 30px;
+    }
+    
+    .project-tile {
+      padding-top: 20px;
+      text-align: center;
+      width: 100%;
+      align-self: center;
+      margin: 10px;
+    }
+    
+    #projects p:hover {
+      color: #ffa64d;
+    }
